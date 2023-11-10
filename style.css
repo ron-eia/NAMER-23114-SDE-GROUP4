@@ -595,3 +595,25 @@ p {
 }
 
 /* End of Homepage */
+
+
+/* Edits by Steph */
+
+.StephChanges {
+  text-align: left;
+  list-style-position: inside;
+  overflow: scroll;
+  background-image: linear-gradient(180deg, red, yellow);
+
+}
+
+.gallery_paragraph{
+  text-align: center;
+  list-style-position: inside;
+  overflow: scroll;
+  background-image: linear-gradient(180deg, red, yellow);
+  
+
+}
+
+/* End of edits by Steph */
