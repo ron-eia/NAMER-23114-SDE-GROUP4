@@ -1,0 +1,597 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #ddd;
+}
+
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 16px 0;
+
+}
+
+
+/* Adjusted header font size */
+h1 {
+  font-size: 36px;
+  margin: 16px 16px;
+}
+
+
+/* Start of style for space phenomena section */
+.quiz-section #quiz {
+    text-align: center;
+    background-color: #141414;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.quiz-section #quiz h2 {
+    font-size: 36px;
+}
+
+
+.quiz-section #quiz-container {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.quiz-section .question {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.quiz-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.quiz-section ul li {
+    margin: 10px 0;
+}
+
+
+.quiz-section label {
+    display: block;
+}
+
+
+.quiz-section input[type="radio"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.quiz-section button {
+    background-color: #141414;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.quiz-section button:hover {
+    background-color: #333;
+}
+
+
+.quiz-section .response {
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+
+.quiz-section .score {
+    background-color: #141414;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+
+.my-header {
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 10px;
+  /* Add space below h2 */
+
+}
+
+.header-link {
+    color: #fff;
+    text-align: center;
+    text-decoration: none; /* Removes underline */
+    margin-right: 10px; /* Adds some space between links */
+}
+
+
+.parallax-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  perspective: 1px;
+  overflow-x: hidden; /* Hide horizontal overflow */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(-1px) scale(2);
+  background-image: url('images/solar_system_background.jpg'); /* Add your space image */
+  background-size: cover;
+  z-index: -1;
+}
+
+
+.foreground {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  padding-top: 30vh; /* Adjust based on your preference */
+}
+
+
+.my-paragraph {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+#space-phenomena {
+  text-align: center;
+  color: #fff;
+  background: radial-gradient(circle, #000 0%, #222 100%);
+  /* Cosmic background */
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 70px;
+  /* Add space below the section */
+}
+
+
+.my-header {
+  color: #fff;
+  font-size: 48px;
+  /* Larger header font */
+  margin-bottom: 20px;
+}
+
+
+.my-paragraph {
+  font-size: 24px;
+  /* Larger paragraph font */
+  margin-bottom: 40px;
+  /* Add space below the paragraph */
+}
+
+
+.image-container {
+  min-width: 300px;
+  max-width: 100%;
+  text-align: center;
+  height: 400px;
+  /* Adjusted container height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 70px;
+  position: relative;
+  overflow: hidden;
+  /* Hide overflow for cosmic effect */
+}
+
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  animation: cosmic 10s infinite alternate;
+  /* Add a cosmic animation */
+}
+
+
+@keyframes cosmic {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.05);
+  }
+}
+
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+
+
+
+
+#space-facts {
+  text-align: center;
+  color: #fff;
+  background: radial-gradient(circle, #00387f, #00081f);
+  padding: 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.constellation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.star {
+  font-size: 20px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  max-width: 300px;
+  width: 80%;
+}
+
+.star:hover {
+  transform: scale(1.1);
+}
+
+
+/* End of style for space phenomena section */
+
+
+
+/* navbar */
+
+.topnav {
+  overflow: hidden;
+  background-color: #1c1c1c;
+  position: relative;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #fafafa;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #433e47;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Humor Page */
+
+.clear {
+  clear: both;
+}
+
+
+.h1Humor {
+  text-align: center;
+}
+
+.h2Humor {
+  font-size: 36px;
+  margin-top: 64px;
+  margin-bottom: 16px;
+}
+
+.card {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+  width: 100%;
+  cursor: pointer;
+}
+
+.flipCard {
+  animation: rotation 2s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.pHumor {
+  font-size: 1.1875rem;
+  margin-top: 16px;
+}
+
+.bodyHumor {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 680px;
+  line-height: 1.6;
+}
+
+.lightModeHumor {
+  color: #000;
+  background-color: #fff;
+}
+
+.toUpperCase {
+  text-transform: uppercase;
+}
+
+.button-35 {
+  margin-top: 16px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, .1) 0 6px 20px;
+  box-sizing: border-box;
+  color: #121212;
+  cursor: pointer;
+  display: inline-flex;
+  flex: 1 1 auto;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1;
+  outline: none;
+  padding: 1rem 1.2rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s, -webkit-box-shadow .2s;
+  white-space: nowrap;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-35:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+}
+
+
+/* About Us Page */
+.about_us {
+  margin: 40px;
+}
+
+.about_us ul li {
+  font-size: 18px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+
+/* End of About Us Page */
+
+
+/* Photo Gallery Page */
+
+.gallery {
+  margin: 40px;
+}
+
+.gallery_paragraph {
+  text-align: center;
+}
+
+/* Utilities */
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,
+      minmax(var(--auto-grid-min-size, 14rem), 1fr));
+  grid-gap: var(--auto-grid-gap, 20px);
+  padding: 20px;
+  margin: 20px;
+  list-style-type: none
+}
+
+
+/* Blocks */
+.gallery_photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  aspect-ratio: 5/4;
+  position: relative;
+  padding: 1.5rem;
+  color: #ffffff;
+  backface-visibility: hidden;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.gallery_photo::before,
+.gallery_photo::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gallery_photo img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: -1;
+  object-fit: cover;
+  transition: filter 200ms ease, transform 250ms linear;
+}
+
+.gallery_photo h2 {
+  transform: translateY(2ex);
+}
+
+.gallery_photo h2 {
+  opacity: 0;
+  font-size: 1.7rem;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: 0.03ch;
+  transition: 300ms transform ease-in-out
+}
+
+.gallery_photo:focus {
+  outline: 0.5rem solid white;
+  outline-offset: -0.5rem;
+}
+
+.gallery_photo:hover :is(h2),
+.gallery_photo:focus :is(h2) {
+  transform: none;
+}
+
+.gallery_photo:hover h2,
+.gallery_photo:focus h2 {
+  opacity: 1;
+  transition-delay: 0ms;
+}
+
+.gallery_photo:hover img,
+.gallery_photo:focus img {
+  transform: scale(1.05) rotate(1deg);
+}
+
+/* End of Photo Gallery Page */
+
+/* Homepage */
+
+.background_img {
+  background-image: url('images/Homepage/background.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.homepage_div {
+  margin: 50px;
+  top: 60%;
+  /* left:20%; */
+  position: absolute;
+  max-width: 50%;
+  /* transition: 300ms transform ease-in-out; */
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* End of Homepage */
